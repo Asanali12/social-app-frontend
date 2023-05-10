@@ -7,7 +7,6 @@ import { Message } from 'primereact/message';
 import React, { useState } from 'react'
 import { TokenState } from '../../store/store';
 import { useSelector, useDispatch } from 'react-redux'
-import { FriendItem } from '../../components/friend-item/friend-item'
 import api from '../../api/api'
 import { updateTokens } from '../../store/tokens';
 

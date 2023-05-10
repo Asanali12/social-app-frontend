@@ -15,7 +15,6 @@ import { UpdateProfileForm } from '../../components/update-profile-form/update-p
 import { Post } from '../../components/post/post';
 
 import styles from './profile.module.css'
-import { error } from 'console';
 
 type ProfileInfo = {
     "id": number,

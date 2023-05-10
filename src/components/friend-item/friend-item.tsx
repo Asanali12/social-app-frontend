@@ -4,8 +4,6 @@ import { Message } from 'primereact/message';
 
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { TokenState } from '../../store/store';
-import { useSelector } from 'react-redux'
 import api from '../../api/api'
 
 import styles from './friend-item.module.css'

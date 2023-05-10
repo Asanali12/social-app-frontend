@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 import { Link } from 'react-router-dom'
-import { useSelector } from 'react-redux';
 
 import { Routing } from './Routes';
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
-//import { TokenState } from './store/store';
 
 function App() {
   return (

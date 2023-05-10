@@ -8,9 +8,3 @@ export interface TokenState {
     accessToken: string,
     refreshToken: string
 }
-
-/*
-export const store = createStore(() => ({
-    accessToken: '',
-    refreshToken: ''
-} as TokenState));*/

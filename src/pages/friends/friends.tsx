@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from "react-router-dom";
 import { TokenState } from '../../store/store';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { FriendItem } from '../../components/friend-item/friend-item'
 import api from '../../api/api'
-import { RawAxiosRequestHeaders } from 'axios';
 
 import styles from './friends.module.css'
-import { error } from "console";
 
 type Friend = {
     id: number,

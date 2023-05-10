@@ -33,7 +33,3 @@ export const Routing = () => {
             </Routes>
     )
 }
-
-function useSelector(arg0: (state: TokenState) => string) {
-    throw new Error("Function not implemented.");
-}

@@ -1,13 +1,9 @@
 import { useForm, Controller } from "react-hook-form"
 import { InputText } from 'primereact/inputtext'
-import { InputNumber } from 'primereact/inputnumber';
-import { Password } from 'primereact/password'
 import { Button } from 'primereact/button';
 import { Message } from 'primereact/message';
 
 import React, { ChangeEvent, useState } from 'react'
-import { TokenState } from '../../store/store';
-import { useSelector } from 'react-redux'
 import api from '../../api/api'
 
 import styles from './update-profile-form.module.css'
