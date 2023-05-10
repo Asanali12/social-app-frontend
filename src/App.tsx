@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux';
+
+import { Routing } from './Routes';
+
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+//import { TokenState } from './store/store';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="navbar">
+          <Link to="user/5">
+            Тестовый профиль
+          </Link>
+          <Link to="/profile">
+            Профиль
+          </Link>
+          <Link to="/friends">
+            Друзья
+          </Link>
+          <Link to="/login">
+            Войти
+          </Link>
+          <Link to="/register">
+            Регистрация
+          </Link>
+        </div>
+      <Routing />
     </div>
   );
 }
