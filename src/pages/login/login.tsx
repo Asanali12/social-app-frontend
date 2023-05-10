@@ -20,7 +20,6 @@ interface NewUserData {
 export const Login = () => {
     const [showErrorMessage, setShowErrorMessage] = useState(false)
     const dispatch = useDispatch();
-    const token = useSelector((state : TokenState) => JSON.stringify(state));
 
     const { control, handleSubmit } = useForm({
         defaultValues: {

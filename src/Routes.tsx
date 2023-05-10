@@ -5,7 +5,6 @@ import { Login } from "./pages/login/login"
 import { Register } from "./pages/register/register"
 import { Friends } from "./pages/friends/friends"
 import { Profile } from "./pages/profile/profile";
-import { TokenState } from "./store/store";
  
 export const Routing = () => {
     return (

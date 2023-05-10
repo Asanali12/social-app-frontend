@@ -16,7 +16,7 @@ type Friend = {
     university: string,
     logo_url: string
 }
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 export const Friends = () => {
 
     const [friends, setFriends] = useState([] as Array<Friend>)
@@ -39,18 +39,6 @@ export const Friends = () => {
             console.log(error)
         })
     }, [])
-
-    const friendsTest = [
-        {
-            id: 1,
-            email : 'email@mail.com',
-            fullname: 'Walter White',
-            age: 45,
-            city: 'Albuquerque',
-            university: 'Albuquerque University',
-            logo_url: 'https://primefaces.org/cdn/primereact/images/organization/walter.jpg'
-        }
-    ]
     
     return (
         <div className={styles.list}>

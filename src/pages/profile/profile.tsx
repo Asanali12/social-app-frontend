@@ -16,6 +16,8 @@ import { Post } from '../../components/post/post';
 
 import styles from './profile.module.css'
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 type ProfileInfo = {
     "id": number,
     "email": string,
