@@ -41,7 +41,7 @@ export const Friends = () => {
         }).catch((error) => {
             console.log(error)
         })
-    }, [])
+    }, [navigate, token])
     
     return (
         <div className={styles.list}>

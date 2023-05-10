@@ -143,7 +143,7 @@ export const Profile = ({isMe=true}: ProfileProps) => {
         }).catch((error) => {
             console.log(error)
         })
-    }, [params.id])
+    }, [params.id, isMe, navigate, token])
     
     return (
         <div className={styles['profile-page']}>
